@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Exp_03</string>
+    <string-array name="names">
+        <item>lv1</item>
+        <item>lv2</item>
+        <item>LV3</item>
+    </string-array>
+
+</resources>
