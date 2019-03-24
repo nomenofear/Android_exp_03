@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         listView = (ListView) findViewById(R.id.listview1);
-
         SimpleAdapter simpleAdapter = new SimpleAdapter(this,putData(),R.layout.activity_main_item,
                 new String[]{"Name","Photo"},new int[] {R.id.textview1,R.id.imageview1});
         listView.setAdapter(simpleAdapter);
