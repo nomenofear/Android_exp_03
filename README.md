@@ -395,12 +395,12 @@ MainActivity:
 
         }
 ```
-
+***
 >要使用ActionMode需要实现ActionMode.Callback接口，并处理ActionMode的生命周期 ：
 >onCreateActionMode(ActionMode,menu) 
 >onPrepareActionMode(ActionMode,menu) 
 >onActionItemClicked(ActionMode,menuItem) onDestroyActionMode(ActionMode)
-
+***
 ------
 
-#### end
+#### **end**
